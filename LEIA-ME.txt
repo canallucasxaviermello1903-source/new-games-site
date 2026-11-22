@@ -1,0 +1,34 @@
+NEW GAMES — SITE DE TUTORIAL E DOWNLOAD
+
+O vídeo já está configurado:
+https://youtu.be/iKBwy2fzcqw
+
+O instalador recebido tem aproximadamente 88 MB. Para publicar:
+1. Crie um repositório público no GitHub chamado new-games-site.
+2. Envie o arquivo index.html para o repositório.
+3. Abra Settings > Pages.
+4. Em Build and deployment, selecione Deploy from a branch.
+5. Escolha a branch main e a pasta /(root), depois clique Save.
+
+PUBLICAR O INSTALADOR (recomendado: GitHub Releases)
+O instalador é grande (aprox. 88 MB). Não recomendo colocá-lo junto dos arquivos do GitHub Pages. Publique-o como um asset de Release:
+1. Abra o repositório no GitHub.
+2. Clique em Releases (ou vá a https://github.com/SEU-USUARIO/new-games-site/releases).
+3. Clique em Create a new release.
+4. Crie uma tag, por exemplo v1.0.0.
+5. Anexe o arquivo "New Games APP - Instalador.exe".
+6. Publique a release.
+7. O link direto do arquivo terá este formato:
+   https://github.com/SEU-USUARIO/new-games-site/releases/latest/download/New%20Games%20APP%20-%20Instalador.exe
+
+ATIVAR O BOTÃO
+Depois de publicar a Release:
+1. Abra index.html no Bloco de Notas.
+2. Procure por: <a class="button" id="downloadButton" href="#"
+3. Troque apenas href="#" pelo link direto da Release.
+4. Salve e envie o index.html atualizado para o mesmo repositório (Add file > Upload files > Commit changes).
+
+IMPORTANTE
+- O botão de download ainda fica propositalmente sem link até você publicar o instalador na Release e copiar o endereço correto.
+- Antes de divulgar, teste o link de download em uma janela anônima.
+- Compartilhe o instalador oficial e confira se o arquivo é a versão correta.
